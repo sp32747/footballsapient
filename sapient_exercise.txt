@@ -1,0 +1,4 @@
+docker image build -t sapient/football-teamtest .
+
+
+docker run -p 8080:8080 sapient/football-teamtest
